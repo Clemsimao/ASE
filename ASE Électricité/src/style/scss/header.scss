@@ -1,0 +1,37 @@
+$header-width: 260px;
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: $header-width;
+  height: 100vh;
+  background: white;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  h1 {
+    font-size: 1rem;
+
+    a {
+      color: #333;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  div {
+    display: flex;
+    gap: 1rem;
+
+    img {
+      width: 60px;
+    }
+  }
+}
