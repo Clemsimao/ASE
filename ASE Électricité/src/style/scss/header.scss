@@ -1,4 +1,4 @@
-$header-width: 260px;
+$header-width: 384px;
 
 header {
   position: fixed;
@@ -6,7 +6,7 @@ header {
   left: 0;
   width: $header-width;
   height: 100vh;
-  background: white;
+  background: #f8ca12;
   padding: 2rem 1rem;
   display: flex;
   flex-direction: column;
@@ -29,9 +29,16 @@ header {
   div {
     display: flex;
     gap: 1rem;
+    background: #2b1f12;
 
     img {
-      width: 60px;
+      width: 50%;
+      max-width: none;
+      object-fit: contain;
     }
+  }
+
+  div:last-child {
+    margin-top: auto;
   }
 }
