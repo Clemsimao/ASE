@@ -1,3 +1,57 @@
+# === OS SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# === LOG FILES & TEMP ===
+*.log
+*.tmp
+*.swp
+*.bak
+
+# === ENVIRONNEMENT VIRTUEL / DEPENDANCES ===
+venv/
+env/
+.env
+.env.*
+
+# === BUILD ===
+build/
+dist/
+*.egg-info/
+*.out
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+
+# === PYTHON CACHE ===
+__pycache__/
+*.py[cod]
+
+# === CMake / Make ===
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# === IDEs & EDITORS ===
+
+# VS Code
+.vscode/
+.history/
+
+# JetBrains (PyCharm, CLion, etc.)
+.idea/
+*.iml
+
+# === GIT ===
+.gitignore
+
 # Logs
 logs
 *.log
