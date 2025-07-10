@@ -20,7 +20,7 @@
   margin: 10px;
   color: v.$color-3;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 2.5em;
 }
 
 .items-head hr {
@@ -37,20 +37,29 @@
 }
 
 .items-body-content {
-  padding: 10px;
-  padding-right: 0px;
-  display: grid;
-  grid-template-columns: 10fr 1fr;
-  font-size: 25px;
-  grid-gap: 10px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  background-color: #fffffe;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   border: 1px solid transparent;
   cursor: pointer;
-  
+  font-size: 2em;
 }
 
 .items-body-content:hover {
-  border-radius: 15px;
   border: 1px solid v.$color-6;
+  background-color: #f9f9f9;
+  transform: scale(1.02);
+}
+
+.icon-check {
+  color: v.$color-6;
+  font-size: 22px;
 }
 
 .items-body-content i {
