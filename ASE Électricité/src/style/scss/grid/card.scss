@@ -1,0 +1,106 @@
+@use "../../variables" as v;
+
+
+.div1, .div3, .div5, .div7  {
+  display: flex;
+  justify-content: flex-end;   
+  align-items: center;
+}
+
+.items {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  // background: #fffffe;
+  background-color: v.$color-3;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  overflow: hidden;
+  // border: 10px solid v.$color-4;
+}
+
+.items::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('./public/images/logos/bulb.svg');
+  background-repeat: repeat;
+  background-size: 6rem;
+  opacity: 0.1;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.items-head p{
+  // padding: 5px 20px;
+  margin: 10px;
+  color: v.$color-4;
+  font-weight: bold;
+  font-size: 2.5em;
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  z-index: 1;
+}
+
+.items-head hr {
+  width: 30%;
+  margin: 1rem 3rem;
+  margin-bottom: 2rem;
+  border: 0.1rem solid v.$color-6;
+}
+
+.items-body {
+  padding: 0rem 5rem;
+  display: grid;
+  grid-gap: 1rem;
+  background-color: v.$color-3;
+}
+
+.items-body-content {
+  padding: 01rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  background-color: #fffffe;
+  // background-color: v.$color-2;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-family: "Electrolize", sans-serif;
+  justify-content: center;
+  z-index: 1;
+}
+
+.items-body-content:hover {
+  border: 1px solid v.$color-6;
+  background-color: #f9f9f9;
+  transform: scale(1.02);
+}
+
+.icon-check {
+  color: v.$color-6;
+  font-size: 22px;
+}
+
+.items-body-content i {
+  align-self: center;
+  font-size: 1rem;
+  font-weight: bold;
+  animation: icon 1.5s infinite forwards;
+}
+
+@keyframes icon {
+  0%,100%{
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(3px);
+  }
+}
+
+.highlight {
+  background-color: v.$color-6;
+  transition: background 0.3s;
+}
