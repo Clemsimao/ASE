@@ -1,7 +1,8 @@
 import '../style/scss/reset.scss'
 import '../style/scss/header.scss'
 import '../style/scss/main.scss'
-import '../style/scss/grid/particulier.scss'
+import '../style/scss/grid/card.scss'
+import '../style/scss/grid/pictures.scss'
 import '../style/scss/footer.scss'
 
 /* changement de photos sur un clique div 1
