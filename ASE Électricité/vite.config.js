@@ -1,5 +1,5 @@
 export default {
   server: {
-    allowedHosts: ['lucky-teeth-enter.loca.lt']
+    allowedHosts: ['92bf9d045b5a.ngrok-free.app']
   }
 }
