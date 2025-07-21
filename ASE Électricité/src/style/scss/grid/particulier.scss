@@ -1,10 +1,11 @@
 @use "../../variables" as v;
 
 
-.div3 {
+.div1, .div3, .div5, .div7  {
   display: flex;
   justify-content: flex-end;   
-  align-items: center;      
+  align-items: center;
+  
 }
 
 .items {
@@ -12,27 +13,27 @@
   height: 100%;
   background: #fffffe;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  border-top: 10px solid v.$color-6;
+  // border-top: 10px solid v.$color-6;
 }
 
 .items-head p{
-  padding: 5px 20px;
+  // padding: 5px 20px;
   margin: 10px;
   color: v.$color-3;
   font-weight: bold;
   font-size: 2.5em;
   font-family: "Electrolize", sans-serif;
+  text-align: center;
 }
 
 .items-head hr {
-  width: 20%;
-  margin: 0px 30px;
+  width: 30%;
+  margin: 10px 30px;
   border: 1px solid v.$color-6;
 }
 
 .items-body {
-  padding: 10px;
-  margin: 10px;
+  padding: 0rem 5rem;
   display: grid;
   grid-gap: 10px;
   
@@ -49,7 +50,7 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   border: 1px solid transparent;
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1.6rem;
   font-family: "Electrolize", sans-serif;
   justify-content: center;
 }
