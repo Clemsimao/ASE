@@ -1,0 +1,16 @@
+@use "../../variables" as v;
+
+
+.slider {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.div2, .div4, .div6, .div8 {
+  max-width: calc(100% - 2rem);
+  max-height: 100%;
+  object-fit: cover;
+  margin: 1rem;
+}
