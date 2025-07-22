@@ -15,18 +15,17 @@ header {
 }
   
 h1 {
-  font-family:"Audiowide", sans-serif;
+  font-family:v.$font-f2;
   font-size: x-large;
-
 }
 
 .description {
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: v.$font-f3;
   font-weight: 400;
   font-style: normal;
   font-size: large;
   border: 0.4rem solid;
-  border-image: linear-gradient(to bottom left, v.$color-3, v.$color-4) 1;
+  border-image: linear-gradient(to bottom left, v.$color-2, v.$color-4) 1;
   margin: 1rem;
   padding: 1rem;
   text-align: center;
@@ -58,7 +57,6 @@ h1 {
     margin-top: auto;
   }
 
-
 .button1 {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -70,7 +68,7 @@ h1 {
   font-family: inherit;
   text-align: center;
   font-size: 1.2em; 
-  font-family: "Electrolize", sans-serif;
+  font-family: v.$font-f1;
   box-shadow: 0px 14px 56px -11px v.$color-3;
   width: 100%; 
   padding: 1em 1em; 
@@ -95,7 +93,6 @@ h1 {
   transition: 0.7s;
   white-space: nowrap;
   margin-top: -0.5em;
-
 }
 
 .button1:hover span {
@@ -106,4 +103,3 @@ h1 {
 .button1:hover span:after {
  opacity: 1;
 }
-

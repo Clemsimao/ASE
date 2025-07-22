@@ -1,5 +1,5 @@
 export default {
   server: {
-    allowedHosts: ['92bf9d045b5a.ngrok-free.app']
+    allowedHosts: ['7e5413eededf.ngrok-free.app']
   }
 }

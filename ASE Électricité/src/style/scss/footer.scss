@@ -4,3 +4,13 @@ body {
   background-color: v.$color-6
  }
 
+footer {
+  background: linear-gradient(-30deg, v.$color-2 0%, v.$color-3 20%, v.$color-4 100%);
+  width: 80%;
+  margin-left: v.$header-width;
+  color: v.$color-2;
+  justify-content: center;
+  text-align: center;
+  font-family: v.$font-f2;
+  padding: 1rem;
+}

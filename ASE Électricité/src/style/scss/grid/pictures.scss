@@ -1,16 +1,20 @@
 @use "../../variables" as v;
 
-
 .slider {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 4 / 3;
+  scale: 95%;
+  // padding: 1rem;
 }
 
 .div2, .div4, .div6, .div8 {
-  max-width: calc(100% - 2rem);
-  max-height: 100%;
-  object-fit: cover;
-  margin: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
